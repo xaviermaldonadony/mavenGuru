@@ -14,5 +14,6 @@ public class HelloWorldTest {
 //  wont run
   }
 }
-//the surefire plugin creates a test directory under target
-// anything that ends or begins with "test will be picked up"
+//the surefire plugin runs test out of "test directory
+// Creates a test directory under target
+// Anything that ends or begins with "test will be picked up"
