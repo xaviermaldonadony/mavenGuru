@@ -24,7 +24,7 @@
     </dependency>
   </dependencies>
 
-  <!--hook into package command will clean and then build it again-->
+  <!--hook command will clean and then build it again-->
   <build>
     <plugins>
       <plugin>
