@@ -1,3 +1,4 @@
-/4-gettingStartedWMaven/**/.idea
+#/4-gettingStartedWMaven/**/.idea
+**.idea
 *.iml
 **/target
