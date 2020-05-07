@@ -1,5 +1,1 @@
-.iml
-External Libraries.*
-target
-idea.*
-target.*
+**/idea
