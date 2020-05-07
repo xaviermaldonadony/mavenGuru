@@ -1,2 +1,3 @@
 /4-gettingStartedWMaven/**/.idea
 *.iml
+**/target
