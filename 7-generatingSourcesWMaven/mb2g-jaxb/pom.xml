@@ -34,7 +34,10 @@
       <version>${jaxb.version}</version>
     </dependency>
   </dependencies>
-
+  <!--when the build runs we will hook in and run the goal of generate -->
+  <!--xjc compiler used, target -> generated-sources, the sources get genrated by xjc-->
+  <!--which are just the classes, it goes trough the build life cycle.-->
+  <!--maven will compile them and put them into a jar-->
   <build>
     <plugins>
       <plugin>
