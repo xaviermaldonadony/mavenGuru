@@ -21,8 +21,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-      <!--targets our scope for test directory.-->
-      <!--when we are packaging this libraries would be not be included or added as dependencies-->
       <scope>test</scope>
     </dependency>
   </dependencies>
