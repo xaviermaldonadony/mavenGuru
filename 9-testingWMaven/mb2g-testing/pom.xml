@@ -31,7 +31,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <!--surefire plugin needed, otherwise tests wont run-->
+  <!--surefire plugin needed otherwise tests wont run-->
   <build>
     <plugins>
       <plugin>
