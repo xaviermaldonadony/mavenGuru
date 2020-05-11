@@ -20,7 +20,7 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
-      <version>2.5.4</version>
+      <version>3.0.3</version>
       <type>pom</type>
     </dependency>
     <dependency>
@@ -32,10 +32,9 @@
     <dependency>
       <groupId>org.spockframework</groupId>
       <artifactId>spock-core</artifactId>
-      <version>1.2-groovy-2.5</version>
+      <version>2.0-M2-groovy-3.0</version>
       <scope>test</scope>
     </dependency>
-
   </dependencies>
 
   <build>
@@ -47,7 +46,8 @@
           <compilerId>groovy-eclipse-compiler</compilerId>
           <compilerArguments>
             <indy/><!-- optional; supported by batch 2.4.12-04+ -->
-            <configScript>config.groovy</configScript><!-- optional; supported by batch 2.4.13-02+ -->
+            <configScript>config.groovy
+            </configScript><!-- optional; supported by batch 2.4.13-02+ -->
           </compilerArguments>
         </configuration>
         <dependencies>
@@ -59,22 +59,23 @@
           <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-eclipse-batch</artifactId>
-            <version>2.5.4-01</version>
+            <version>3.0.0-01</version>
           </dependency>
         </dependencies>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.0</version>
-        <configuration>
-          <argLine>
-            --illegal-access=permit
-          </argLine>
-        </configuration>
+        <version>3.0.0-M4</version>
+        <!--        <configuration>-->
+        <!--          <argLine>-->
+        <!--            &#45;&#45;illegal-access=permit-->
+        <!--          </argLine>-->
+        <!--        </configuration>-->
       </plugin>
     </plugins>
   </build>
+
 
   <pluginRepositories>
     <pluginRepository>

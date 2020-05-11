@@ -11,5 +11,4 @@ public class JavaHelloWorldTest {
     JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
     assertEquals("Hello World", javaHelloWorld.getHello());
   }
-
 }
